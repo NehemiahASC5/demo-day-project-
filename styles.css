@@ -1,0 +1,129 @@
+#rcorners1 {
+    
+}
+
+
+
+img{
+    height: 125px;
+    width: 15%;
+    padding: 10px;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+ button{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background-color: rgb(50, 150, 153);
+    border: none;
+    color: white;
+    padding: 20px 10px;
+    padding-bottom: 10px 5px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    border-spacing: 5px; 
+  
+
+    
+ }
+ 
+
+
+
+nav{
+    text-align: center;
+    
+}
+body{
+    text-align: center;
+    color: rgb(255, 254, 254);
+    size: 30px;
+    font-family: 'Righteous', cursive;
+    padding: 100px
+}
+
+header{
+    color: aqua;
+    columns: ;
+}
+
+div{
+
+        width: 100px;
+        /* border: 5px solid black; */
+        padding: 25px;
+        margin: 25px;
+
+    border: inset 7px rgb(0, 0, 0);
+    padding: 20px;
+    width: 75%;
+    size: initial;
+    margin: auto;  
+    background-color: rgb(108, 122, 120);
+    text-align: center
+    border-radius: 25px;
+    background-color: gray;
+    /* padding: 20px; 
+    width: 200px;
+    height: 150px;  */
+    
+    }
+/* h1{
+    width: 100%; 
+}*/
+
+span{
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(0, 0, 0) 
+}
+
+a{
+    color: rgb(0, 0, 0);
+  
+}
+
+img{
+    margin-bottom: 40px; 
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 10px;
+}
+div{
+    font-size: 20px;
+}
